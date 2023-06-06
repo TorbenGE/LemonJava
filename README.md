@@ -37,3 +37,13 @@ for you).
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
+
+-------------- RUN INSTRUCTIONS -------------
+
+Running the TexttestFixture:
+1) mvn compile
+# This will run the script for 5 days
+2) java -cp "target/test-classes;target/classes" com.gildedrose.TexttestFixture 5
+
+Running the Test suite:
+1) mvn test
